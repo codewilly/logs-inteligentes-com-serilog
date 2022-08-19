@@ -1,5 +1,3 @@
-- TUTORIAL SEM IMAGENS TEMPORARIAMENTE
-
 **Logs inteligentes com Serilog**
 
 Uma das ferramentas mais populares para o registro de logs é o Serilog. Após configurado, um simples Log.Informationjá faz todo o trabalho sujo e persiste as informações em uma base de dados de nossa preferência. O problema é que não temos muito controle sobre a forma de salvar estes dados, o que pode resultar em uma grande massa de logs espalhados e/ou irrelevantes.
@@ -16,7 +14,7 @@ Ao final deste artigo, criaremos um simples projeto de API em .NET 6 com os segu
 
 Para este projeto, no Visual Studio (ou em sua IDE preferida) crie uma nova solution e adicione um projeto de API em NET 6 (você pode utilizar outras versões se desejar, mas o código pode não ser exatamente o mesmo). Em seguida, crie uma controller qualquer e adicione um endpoint GET.
 
-![](RackMultipart20220819-1-h3za21_html_4b1fcd0651d61727.png)
+![Imagem1](https://user-images.githubusercontent.com/45723329/185695989-080ae9b8-9338-402b-a1ba-36015f7c279b.png)
 
 **Configurando o Serilog**
 
